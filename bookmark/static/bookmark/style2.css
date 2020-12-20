@@ -1,0 +1,66 @@
+ h1 a, h1 a:hover, h1{
+    color: #828282;
+    font-family: "타이포_스톰 B";
+     list-style-type: none;
+
+}
+ .newfield {
+     margin-top: 3px;
+     list-style-type: none;
+     font-family: "타이포_스톰 B";
+ }
+ .detailfield {
+     font-family: 휴먼매직체;
+     font-size: 30px;
+     margin-top: 30px;
+     margin-left: 30px;
+ }
+ .detailurl {
+     font-family: Century;
+     margin-left: 30px;
+     background-color: #828282;
+     color: lightpink;
+     width: 250px;
+     text-align: center;
+ }
+.navbar-brand{
+    font-family: "타이포_스톰 B";
+}
+body {
+    background-color: #FBE4F3;
+}
+
+.nav-link{
+    list-style: none;
+}
+
+.textfield {
+    color: #828282;
+    font-family: 휴먼편지체;
+}
+
+.list_post {
+    margin-top: 30px;
+}
+.post {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.addBtn {
+    background-color: white;
+    margin-left: 10px;
+}
+.table {
+    color: #828282;
+}
+
+
+.bookmarktext, .bookmarktext:hover {
+    color: #828282;
+}
+
+.tr{
+    font-family: "타이포_스톰 B";
+    font-size: 25px;
+}

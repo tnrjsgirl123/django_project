@@ -1,0 +1,48 @@
+body {
+    background-position: right top;
+    background-size: 300px 200px;
+    background-color: #FBE4F3;
+    padding-left: 40px;
+    margin-top: 50px;
+
+}
+
+ h1 a, h1 a:hover {
+    color: #828282;
+    font-family: "타이포_스톰 B";
+     list-style-type: none;
+
+}
+
+ .newfield{
+     margin-top: 3px;
+     list-style-type: none;
+     font-family: "타이포_스톰 B";
+ }
+ .navbar navbar-expand-lg navbar-light bg-light {
+     margin: 0;
+ }
+.navbar-brand{
+    font-family: "타이포_스톰 B";
+}
+
+.nav-link{
+    list-style: none;
+}
+
+
+.textfield {
+    color: lavenderblush;
+}
+
+.list_post {
+    margin-top: 30px;
+}
+
+.datefield {
+    margin-top: 30px;
+    width: 200px;
+    color: lavenderblush;
+    font-size: 13px;
+    background-color: gainsboro;
+}
