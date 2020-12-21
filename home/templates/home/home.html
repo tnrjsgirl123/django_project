@@ -4,7 +4,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{% static 'style2.css' %}">
-    <title>Title</title>
+    <title>Home</title>
 
 {% block content %}
 <nav class="navbar navbar-expand-lg navbar-light bg-light" >
@@ -17,7 +17,7 @@
        <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="{% url 'home:home' %}"style="color:#FBE4F3">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="{% url 'home:home' %}"style="color:lightpink">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="{% url 'polls:index' %}">Polls <span class="sr-only">(current)</span></a>
@@ -35,8 +35,10 @@
 
   <div class="Jemok" style="margin-top: 750px">
       <h4 style="font-family:타이포_스톰 B;">비투비</h4>
+      <div style="font-family: 휴먼편지체">
       <p>BTOB(비투비)는 2012년에 큐브엔터테인먼트에서 비스트 이후 2년 5개월만에 내놓은 7인조 다국적 보이그룹이다.</p>
       <p>팀 이름은 ‘Born To Beat(비트를 위해 탄생했다)’의 머리글자를 딴 조합이다.</p>
       <p>7명의 보컬, 7명의 래퍼, 7마리의 비글, 7명의 도른자들, 7명의 댄서 그리고 자타공인 실력파 아이돌</p>
+       </div>
   </div>
 {% endblock %}

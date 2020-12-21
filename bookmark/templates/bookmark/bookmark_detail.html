@@ -4,7 +4,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{% static 'bookmark/style2.css' %}">
-    <title>Title</title>
+    <title>BookMark_Detail</title>
 
 
 {% block content %}
@@ -38,5 +38,8 @@
 <div class="detailurl">
       {{object.url}}
 </div>
-
+<div class="detailBtn" style="margin: 30px;">
+<button class="addBtn" style="background-color: lightpink;"><a href="{% url 'bookmark:update' pk=bookmark.id %}" style="color: #828282">Modify</a></button>
+<button class="addBtn" style="background-color: lightpink; margin-left: 10px"><a href="{% url 'bookmark:delete' pk=bookmark.id %}"style="color: #828282">Delete</a></button>
+</div>
 {% endblock %}

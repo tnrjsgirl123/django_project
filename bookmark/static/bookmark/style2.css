@@ -15,6 +15,7 @@
      margin-top: 30px;
      margin-left: 30px;
  }
+
  .detailurl {
      font-family: Century;
      margin-left: 30px;
@@ -42,20 +43,25 @@ body {
 .list_post {
     margin-top: 30px;
 }
-.post {
-    margin-top: 30px;
-    margin-left: 30px;
-}
 
-.addBtn {
-    background-color: white;
-    margin-left: 10px;
+.addtext{
+    margin: 30px;
+}
+.AddBookMark {
+    width: 100px;
 }
 .table {
     color: #828282;
 }
+.addadd {
+    margin-left: 30px;
+}
 
-
+.addBtn2{
+    margin-left: 30px;
+    color: #828282;
+    width: 100px;
+}
 .bookmarktext, .bookmarktext:hover {
     color: #828282;
 }
